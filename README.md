@@ -1,6 +1,8 @@
 # dirty-deetz
 Posts pictures to Instagram automatically at the end of the day, if another picture was not already posted that day.
-[Dirty Deetz](deetz.jpg)
+
+![this pic](https://raw.githubusercontent.com/andrewhu/dirty-deetz/deetz.jpg)
+
 ## Example
 https://instagram.com/samepictureofdirtydeetz
 
