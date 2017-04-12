@@ -5,15 +5,10 @@ Make sure the script has the right permissions. `-rwxr-xr-x` for the folder (755
 
 
 
-## Schedule a cron task (automated task) on a Linux system
-
-### Edit the cron file and input when you want the script to run
-
-
+### Schedule a cron task (automated task) on a Linux system
 ```
 crontab -e
 ```
-
 ```
 # .---------------- minute (0 - 59) 
 # |  .------------- hour (0 - 23)
