@@ -6,12 +6,12 @@ https://instagram.com/samepictureofdirtydeetz
 
 ## Schedule a cron task (automated task) on a Linux system
 
-#### First open crontab
+### First open crontab
 
 ```
 crontab -e
 ```
-#### Edit the cron file and input when you want the script to run
+### Edit the cron file and input when you want the script to run
 
 A `*` denotes running every time, e.g. a `*` in the hour field will run the script every hour. The example below will run `dirtydeetz.php` at 23:59 (11:59 PM) every day of the month, every month, every day of the week.
 
@@ -26,3 +26,7 @@ A `*` denotes running every time, e.g. a `*` in the hour field will run the scri
 
   59 23  *  *  *  php /my/name/is/jeff/dirtydeetz.php
 ```
+
+### Reminders
+- Remember to set the correct timezone on the machine you are running
+- If the script is not working, make sure that the permissions on directories and files are correct. Run `chmod 755 [folder name]` to change the folder permissions (-rwxr-xr-x) and `chmod 644 [folder name]/* -r` for the files (-rw-r--r--)
