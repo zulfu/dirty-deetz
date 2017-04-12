@@ -5,6 +5,8 @@ Linux/Debian:
 git clone https://github.com/andrewhu/dirtydeetz.git
 chmod -rwxr-xr-x dirtydeetz && chmod -rw-r--r-- dirtydeetz/*
 cd dirtydeetz && php dirtydeetz.php && crontab -e
+```
+```
 # .---------------- minute (0 - 59) 
 # |  .------------- hour (0 - 23)
 # |  |   .---------- day of month (1 - 31)
