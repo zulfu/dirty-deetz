@@ -3,6 +3,15 @@ Posts pictures to Instagram automatically. https://instagram.com/samepictureofdi
 
 ## Schedule a cron task (automated task) on a Linux system
 
+#### First open crontab
+
+```
+crontab -e
+```
+#### Edit the cron file and input when you want the script to run
+
+A '\*' denotes running every time, e.g. a '\*' in the hour field will run the script every hour.
+
 ```
 # .---------------- minute (0 - 59) 
 # |  .------------- hour (0 - 23)
