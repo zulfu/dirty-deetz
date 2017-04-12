@@ -10,7 +10,7 @@ crontab -e
 ```
 #### Edit the cron file and input when you want the script to run
 
-A '\*' denotes running every time, e.g. a '\*' in the hour field will run the script every hour.
+A `*` denotes running every time, e.g. a `*` in the hour field will run the script every hour.
 
 ```
 # .---------------- minute (0 - 59) 
