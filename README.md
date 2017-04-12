@@ -1,12 +1,11 @@
-# automated same picture of dirty deetz
+# Automated Instagram image posting
 Mark Zuckerberg smells bad and doesn't support posting images through the official [Instagram API](https://www.instagram.com/developer/), but it's possible to spoof the request by ~~sexually~~ identifying as a [version 4 Instagram client](https://youtu.be/dQw4w9WgXcQ). A scheduled `crontab` runs the script daily.
 ```
 Linux/Debian:
 git clone https://github.com/andrewhu/dirtydeetz.git && 
-cd dirtydeetz &&
-php dirtydeetz.php
+cd dirtydeetz && php dirtydeetz.php
 ```
-Make sure the script has the right permissions. `-rwxr-xr-x` for the folder (755) and `-rw-r--r--` for the script (644)
+File permissions: `-rwxr-xr-x` for the folder (755) and `-rw-r--r--` for the script (644)
 
 ### Schedule a cron task (automated task) on a Linux system
 
