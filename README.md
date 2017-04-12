@@ -9,6 +9,7 @@ chmod -rwxr-xr-x dirtydeetz && chmod -rw-r--r-- dirtydeetz/*
 cd dirtydeetz && php dirtydeetz.php 
 ```
 ### Scheduling a crontab (automated task)
+Open the crontab file:
 ```
 crontab -e
 ```
