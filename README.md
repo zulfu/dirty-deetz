@@ -1,8 +1,6 @@
 # dirty-deetz
 Mark Zuckerberg smells bad and doesn't support posting images through the official [Instagram API](https://www.instagram.com/developer/), so this script spoofs the request by identifying as a [version 4 Instagram client](https://youtu.be/dQw4w9WgXcQ).
 
-![this pic](https://raw.githubusercontent.com/andrewhu/dirty-deetz/master/deetz.jpg)
-
 ## Example
 https://instagram.com/samepictureofdirtydeetz
 
