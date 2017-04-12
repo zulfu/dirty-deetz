@@ -2,7 +2,11 @@
 Mark Zuckerberg smells bad and doesn't support posting images through the official [Instagram API](https://www.instagram.com/developer/), so this script spoofs the request by identifying as a [version 4 Instagram client](https://youtu.be/dQw4w9WgXcQ).
 
 To run:
-`git clone https://github.com/andrewhu/dirtydeetz.git && php dirtydeetz/dirtydeetz.php`
+```
+git clone https://github.com/andrewhu/dirtydeetz.git && 
+cd dirtydeetz &&
+php dirtydeetz.php
+```
 Make sure the script has the right permissions. `-rwxr-xr-x` for the folder (755) and `-rw-r--r--` for the script (644)
 
 ### Schedule a cron task (automated task) on a Linux system
