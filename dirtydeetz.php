@@ -11,7 +11,7 @@
 
 $username = '';
 $password = '';
-$image = '';
+$image = 'deetz.jpg';
 $caption = '';
 $timezone = 'America/Los_Angeles';
 
