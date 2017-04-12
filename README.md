@@ -1,5 +1,8 @@
 # dirty-deetz
-Posts pictures to Instagram automatically. https://instagram.com/samepictureofdirtydeetz
+Posts pictures to Instagram automatically at the end of the day, if another picture was not already posted that day.
+
+## Example
+https://instagram.com/samepictureofdirtydeetz
 
 ## Schedule a cron task (automated task) on a Linux system
 
@@ -10,7 +13,7 @@ crontab -e
 ```
 #### Edit the cron file and input when you want the script to run
 
-A `*` denotes running every time, e.g. a `*` in the hour field will run the script every hour. The example below will run `dirtydeetz.php` at 23:59 (11:59 PM) every day of the mont, every month, every day of the week.
+A `*` denotes running every time, e.g. a `*` in the hour field will run the script every hour. The example below will run `dirtydeetz.php` at 23:59 (11:59 PM) every day of the month, every month, every day of the week.
 
 ```
 # .---------------- minute (0 - 59) 
