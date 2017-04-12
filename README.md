@@ -1,5 +1,6 @@
 # Automated Instagram image posting
 Mark Zuckerberg smells bad and doesn't support posting images through the official [Instagram API](https://www.instagram.com/developer/), but it's possible to spoof the request by ~~sexually~~ identifying as a [version 4 Instagram client](https://youtu.be/dQw4w9WgXcQ). A scheduled `crontab` runs the script at.
+
 Installation
 ```
 Linux/Debian:
