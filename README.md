@@ -1,5 +1,5 @@
 # dirty-deetz
-Posts pictures to Instagram automatically at the end of the day, if another picture was not already posted that day.
+Mark Zuckerberg smells bad and doesn't support posting images through the official [Instagram API](https://www.instagram.com/developer/), so this script spoofs the request by identifying as a [version 4 Instagram client](https://youtu.be/dQw4w9WgXcQ).
 
 ![this pic](https://raw.githubusercontent.com/andrewhu/dirty-deetz/master/deetz.jpg)
 
