@@ -7,8 +7,6 @@ cd dirtydeetz && php dirtydeetz.php
 ```
 File permissions: `-rwxr-xr-x` for the folder (755) and `-rw-r--r--` for the script (644)
 
-### Schedule a cron task (automated task) on a Linux system
-
 ```
 crontab -e
 ```
