@@ -1,6 +1,7 @@
-# dirty-deetz
-Mark Zuckerberg smells bad and doesn't support posting images through the official [Instagram API](https://www.instagram.com/developer/), so this script spoofs the request by identifying as a [version 4 Instagram client](https://youtu.be/dQw4w9WgXcQ).
+# automated same picture of dirty deetz
+Mark Zuckerberg smells bad and doesn't support posting images through the official [Instagram API](https://www.instagram.com/developer/), but it's possible to spoof the request by ~~sexually~~ identifying as a [version 4 Instagram client](https://youtu.be/dQw4w9WgXcQ). A scheduled `crontab` runs the script daily.
 ```
+Linux/Debian:
 git clone https://github.com/andrewhu/dirtydeetz.git && 
 cd dirtydeetz &&
 php dirtydeetz.php
