@@ -10,7 +10,7 @@ crontab -e
 ```
 #### Edit the cron file and input when you want the script to run
 
-A `*` denotes running every time, e.g. a `*` in the hour field will run the script every hour.
+A `*` denotes running every time, e.g. a `*` in the hour field will run the script every hour. The example below will run `dirtydeetz.php` at 23:59 (11:59 PM) every day of the mont, every month, every day of the week.
 
 ```
 # .---------------- minute (0 - 59) 
@@ -21,5 +21,5 @@ A `*` denotes running every time, e.g. a `*` in the hour field will run the scri
 # |  |  |  |  |
 # *  *  *  *  *  command to be executed
 
-  30 3  *  *  *  php /my/name/is/jeff/dirtydeetz.php
+  59 23  *  *  *  php /my/name/is/jeff/dirtydeetz.php
 ```
