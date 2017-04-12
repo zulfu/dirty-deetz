@@ -1,8 +1,9 @@
 # dirty-deetz
 Mark Zuckerberg smells bad and doesn't support posting images through the official [Instagram API](https://www.instagram.com/developer/), so this script spoofs the request by identifying as a [version 4 Instagram client](https://youtu.be/dQw4w9WgXcQ).
 
-## Example
-https://instagram.com/samepictureofdirtydeetz
+Make sure the script has the right permissions. `-rwxr-xr-x` for the folder (755) and `-rw-r--r--` for the script (644)
+
+
 
 ## Schedule a cron task (automated task) on a Linux system
 
@@ -29,4 +30,6 @@ A `*` denotes running every time, e.g. a `*` in the hour field will run the scri
 
 ### Reminders
 - Remember to set the correct timezone on the machine you are running
-- If the script is not working, make sure that the permissions on directories and files are correct. Run `chmod 755 [folder name]` to change the folder permissions (-rwxr-xr-x) and `chmod 644 [folder name]/* -r` for the files (-rw-r--r--)
+
+## Example
+https://instagram.com/samepictureofdirtydeetz
