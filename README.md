@@ -1,11 +1,12 @@
-# Script to post Aditya's face on Instagram every day
-Mark Zuckerberg smells bad and doesn't support posting images through the official Instagram API, but it's possible to spook the request by identifying as a version 4 Instagram client. A scheduled `crontab` runs the script at specified intervals.
+# Script to post Aditya's face on Instagram every day (only if he forgets)
+Mark Zuckerberg smells bad and doesn't support posting images through the official Instagram API, but it's possible to spook the request by identifying as a version 4 Instagram client. 
+The script checks every day at 11:59 if a picture has been posted, otherwise it will post.
 
 ### Installation
 ```
 Linux/Debian:
 git clone https://github.com/andrewhu/dirtydeetz.git
-chmod -rwxr-xr-x dirtydeetz && chmod -rw-r--r-- dirtydeetz/*
+chmod 755 dirtydeetz && chmod 644 dirtydeetz/*
 cd dirtydeetz && php dirtydeetz.php 
 ```
 ### Scheduling a crontab (automated task)
