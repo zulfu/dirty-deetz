@@ -17,24 +17,7 @@ $timezone = 'America/Los_Angeles';
 
 /***************************/
 
-
-$url = 'https://www.instagram.com/' . $username . '/media';
-$account_data = json_decode(file_get_contents($url), true);
-
-$current_time = new DateTime();
-$current_time->setTimestamp(time());
-date_timezone_set($current_time, timezone_open($timezone));
-
-$creation_time = new DateTime();
-$creation_time->setTimestamp($account_data['items'][0]['created_time']);
-date_timezone_set($creation_time, timezone_open($timezone));
-
-$current_day = $current_time->format('d');
-$creation_day = $creation_time->format('d');
-
-if ($current_day !== $creation_day) {
-    PostPicture($username, $password, $image, $caption);
-}
+PostPicture($username, $password, $image, $caption);
 
 function SendRequest($url, $post, $data, $userAgent, $cookies)
 {
