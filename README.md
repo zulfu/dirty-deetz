@@ -4,17 +4,16 @@ The script checks every day at 11:59 if a picture has been posted, otherwise it 
 
 ### Installation
 ```
-Linux/Debian:
 git clone https://github.com/andrewhu/dirtydeetz.git
-chmod 755 dirtydeetz && chmod 644 dirtydeetz/*
+apt install php php-curl -y
 cd dirtydeetz && php dirtydeetz.php 
 ```
-### Scheduling a crontab (automated task)
+### Scheduling a crontab
 Open the crontab file:
 ```
 crontab -e
 ```
-Add this line to the crontab file:
+Add these lines to the crontab file:
 ```
 # .---------------- minute (0 - 59) 
 # |  .------------- hour (0 - 23)
@@ -26,10 +25,6 @@ Add this line to the crontab file:
 
   59 23  *  *  *  php /my/name/is/jeff/dirtydeetz.php
 ```
-
-A `*` denotes running every time, e.g. a `*` in the hour field will run the script every hour. The example above will run `dirtydeetz.php` at 23:59 (11:59 PM) every day of the month, every month, every day of the week.
-### Reminders
-- Remember to set the correct timezone on the machine you are running
 
 ## Example
 https://instagram.com/samepictureofdirtydeetz
